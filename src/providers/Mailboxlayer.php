@@ -2,11 +2,11 @@
 
 namespace EmailVerificator\Providers;
 
-use EmailVerificator\AbstractValidator;
+use EmailVerificator\ProviderInterface;
 
-class Mailboxlayer extends AbstractValidator
+class Mailboxlayer implements ProviderInterface
 {
-    public function check()
+    public function check($data)
     {
 
     }

@@ -2,11 +2,11 @@
 
 namespace EmailVerificator\Providers;
 
-use EmailVerificator\AbstractValidator;
+use EmailVerificator\ProviderInterface;
 
-class AmazonSes extends AbstractValidator
+class AmazonSes implements ProviderInterface
 {
-    public function check()
+    public function check($data)
     {
 
     }

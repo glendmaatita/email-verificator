@@ -6,7 +6,7 @@ use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Psr7\Request;
 use EmailVerificator\RequestInterface;
 
-abstract class AbstractValidator
+class AbstractValidator
 {
     protected $request;
     protected $client;
