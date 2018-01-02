@@ -1,0 +1,31 @@
+{
+    "name": "glendmaatita/email-verificator",
+    "description": "Email verfication wrapper for Amazon SES, Mailgun, Mailboxlayer, etc",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Glend Maatita",
+            "email": "glend.maatita@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "aws/aws-sdk-php": "~3.48",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmailVerificator": "src/EmailVerificator/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EmailVerificator\\Test\\": "tests/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
