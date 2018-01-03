@@ -6,7 +6,7 @@ use EmailVerificator\ProviderInterface;
 
 class Mailboxlayer implements ProviderInterface
 {
-    public function check($data)
+    public function check()
     {
 
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace EmailVerificator\Providers;
+namespace EmailVerificator;
 
 interface ProviderInterface
 {
